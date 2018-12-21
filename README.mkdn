@@ -11,11 +11,11 @@ To get started with the building process, you'll need to get familiar with [Git 
 
 To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/DotOS/manifest.git -b dot-n
+    repo init -u git://github.com/manishjvora/DOT_manifest.git -b dot-n --depth=1 --groups=all,-darwin,-x86,-mips,-exynos5
 
 Then to sync up:
 
-    repo sync  -f --force-sync --no-clone-bundle
+    repo sync -c -f --force-sync --no-clone-bundle
 
 Additionally, you can define the number of parallel download repo should do:
 
