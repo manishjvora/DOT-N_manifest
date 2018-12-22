@@ -33,6 +33,7 @@
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_system_core" />
   <remove-project name="android_system_media" />
+  <remove-project name="android_vendor_dot" />
 
   
   <!--Add updated stuff from my git -->  
@@ -47,6 +48,7 @@
   <project path="packages/apps/Settings" name="DOT_android_packages_apps_Settings" remote="mv" />
   <project path="system/core" name="DOT_android_system_core" remote="mv" />
   <project path="system/media" name="DOT_android_system_media" remote="mv" />
+  <project path="vendor/dot" name="DOT_android_vendor_dot" remote="mv" />
   
 
 </manifest>
